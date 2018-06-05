@@ -5,7 +5,11 @@ import React from "react";
 import Icon from "./Icon.js";
 
 import { connect, Provider } from "react-redux";
-import { setVolume, setMute } from "../redux/Volume.js";
+// import { setVolume, setMute } from "../redux/Volume.js";
+
+import volumeActions from "../actions/VolumeActions";
+const setVolume = volumeActions.volume;
+const setMute = volumeActions.toggleVolumeMute;
 
 function _getOffsetLeft(elem) {
   var offsetLeft = 0;
