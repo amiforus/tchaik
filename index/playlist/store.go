@@ -7,7 +7,7 @@ package playlist
 import (
 	"sync"
 
-	"tchaik.com/index"
+	"github.com/amiforus/tchaik/index"
 )
 
 // Store is an interface which defines methods for implementing a playlist store.

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"tchaik.com/index"
+	"github.com/amiforus/tchaik/index"
 )
 
 // Store is an interface which defines methods necessary for setting and getting favourites for

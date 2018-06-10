@@ -7,12 +7,12 @@ package main
 import (
 	"fmt"
 
-	"tchaik.com/index"
-	"tchaik.com/index/checklist"
-	"tchaik.com/index/cursor"
-	"tchaik.com/index/favourite"
-	"tchaik.com/index/history"
-	"tchaik.com/index/playlist"
+	"github.com/amiforus/tchaik/index"
+	"github.com/amiforus/tchaik/index/checklist"
+	"github.com/amiforus/tchaik/index/cursor"
+	"github.com/amiforus/tchaik/index/favourite"
+	"github.com/amiforus/tchaik/index/history"
+	"github.com/amiforus/tchaik/index/playlist"
 )
 
 // Meta is a container for extra metadata which wraps the central media library.

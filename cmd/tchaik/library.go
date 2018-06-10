@@ -12,9 +12,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"tchaik.com/index"
-	"tchaik.com/index/attr"
-	"tchaik.com/store"
+	"github.com/amiforus/tchaik/index"
+	"github.com/amiforus/tchaik/index/attr"
+	"github.com/amiforus/tchaik/store"
 )
 
 // Library is a type which encompases the components which form a full library.

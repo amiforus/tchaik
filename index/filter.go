@@ -7,7 +7,7 @@ package index
 import (
 	"sort"
 
-	"tchaik.com/index/attr"
+	"github.com/amiforus/tchaik/index/attr"
 )
 
 // FilterItem is an interface which defines behaviour for creating arbitrary filters where each

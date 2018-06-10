@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"sync"
 
-	"tchaik.com/index"
-	"tchaik.com/index/playlist"
+	"github.com/amiforus/tchaik/index"
+	"github.com/amiforus/tchaik/index/playlist"
 )
 
 // Position is a type which stores a position in a playlist.

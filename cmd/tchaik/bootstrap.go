@@ -7,8 +7,8 @@ package main
 import (
 	"sync"
 
-	"tchaik.com/index"
-	"tchaik.com/index/attr"
+	"github.com/amiforus/tchaik/index"
+	"github.com/amiforus/tchaik/index/attr"
 )
 
 // newBootstrapSearch creates a new index.Searcher which builds the search index

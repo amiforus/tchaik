@@ -7,8 +7,8 @@ package cursor
 import (
 	"fmt"
 
-	"tchaik.com/index"
-	"tchaik.com/index/playlist"
+	"github.com/amiforus/tchaik/index"
+	"github.com/amiforus/tchaik/index/playlist"
 )
 
 type Action string

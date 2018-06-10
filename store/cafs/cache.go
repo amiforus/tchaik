@@ -8,7 +8,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"tchaik.com/store"
+	"github.com/amiforus/tchaik/store"
 )
 
 // InvalidPathError is returned by cachine filesystem when a previous attempt has been

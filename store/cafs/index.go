@@ -11,7 +11,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"tchaik.com/store"
+	"github.com/amiforus/tchaik/store"
 )
 
 // Index is an interface which contains methods for implementing

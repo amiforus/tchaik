@@ -1,0 +1,8 @@
+run.config:
+  engine: golang
+  engine.config:
+    # Go Settings
+    runtime: go-1.9
+    package: 'github.com/amiforus/tchaik'
+    fetch: 'go get'
+    build: 'make'

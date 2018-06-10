@@ -7,7 +7,7 @@ package cursor
 import (
 	"sync"
 
-	"tchaik.com/index"
+	"github.com/amiforus/tchaik/index"
 )
 
 // Store is an interface which defines methods for implementing a cursor store.

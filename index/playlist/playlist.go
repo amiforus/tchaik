@@ -9,7 +9,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"tchaik.com/index"
+	"github.com/amiforus/tchaik/index"
 )
 
 // Transformer is an interface which defines the Transform method for making changes to

@@ -17,8 +17,8 @@ import (
 
 	"github.com/mitchellh/goamz/aws"
 
-	"tchaik.com/store"
-	"tchaik.com/store/cafs"
+	"github.com/amiforus/tchaik/store"
+	"github.com/amiforus/tchaik/store/cafs"
 )
 
 var localStore, remoteStore string

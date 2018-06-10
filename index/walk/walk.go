@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/dhowden/tag"
-	"tchaik.com/index"
+	"github.com/amiforus/tchaik/index"
 )
 
 var fileExtensions = []string{".mp3", ".m4a", ".flac", ".ogg"}
