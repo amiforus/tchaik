@@ -35,8 +35,8 @@ import (
 	"golang.org/x/net/context"
 	"golang.org/x/net/trace"
 
-	"tchaik.com/store"
-	"tchaik.com/store/cmdflag"
+	"github.com/amiforus/tchaik/store"
+	"github.com/amiforus/tchaik/store/cmdflag"
 )
 
 var listen string

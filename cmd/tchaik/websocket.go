@@ -12,10 +12,10 @@ import (
 
 	"golang.org/x/net/websocket"
 
-	"tchaik.com/index"
-	"tchaik.com/index/cursor"
-	"tchaik.com/index/playlist"
-	"tchaik.com/player"
+	"github.com/amiforus/tchaik/index"
+	"github.com/amiforus/tchaik/index/cursor"
+	"github.com/amiforus/tchaik/index/playlist"
+	"github.com/amiforus/tchaik/player"
 )
 
 // Command is a type which is a container for data received from the websocket.

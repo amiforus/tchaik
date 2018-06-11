@@ -15,9 +15,9 @@ import Top from "./components/Top.js";
 import Container from "./components/Container.js";
 
 import { Provider } from "react-redux"
-import { volumeStore } from "./redux/Volume.js";
-
-
+//import { volumeStore } from "./stores/VolumeStore";
+import { createStore } from "./utils/devTools";
+let volumeStore = createStore((state = {}, action) => {});
 const socketAddr = document.location.host;
 
 let protocol = "ws://";

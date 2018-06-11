@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"os"
 
-	"tchaik.com/index"
-	"tchaik.com/index/itl"
-	"tchaik.com/index/walk"
+	"github.com/amiforus/tchaik/index"
+	"github.com/amiforus/tchaik/index/itl"
+	"github.com/amiforus/tchaik/index/walk"
 )
 
 var itlXML, path string

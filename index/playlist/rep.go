@@ -7,7 +7,7 @@ package playlist
 import (
 	"fmt"
 
-	"tchaik.com/index"
+	"github.com/amiforus/tchaik/index"
 )
 
 // Action is a type used to represent a playlist mutation action.

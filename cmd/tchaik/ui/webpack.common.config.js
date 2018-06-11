@@ -10,6 +10,10 @@ var postcssImport = require("postcss-import");
 var postcssColorFunction = require("postcss-color-function");
 var postcssColorRGBAFallback = require("postcss-color-rgba-fallback");
 
+var devFlagPlugin = new webpack.DefinePlugin({
+  __DEV__: JSON.stringify(JSON.parse(process.env.DEBUG || "false")),
+});
+
 module.exports = {
   plugins: [
     new webpack.DefinePlugin({
@@ -19,6 +23,9 @@ module.exports = {
       }, {}),
     }),
     new ExtractTextPlugin("styles.css"),
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoErrorsPlugin(),
+    devFlagPlugin,
   ],
 
   // devtool: "inline-source-map",

@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"tchaik.com/index/attr"
+	"github.com/amiforus/tchaik/index/attr"
 )
 
 type testCol struct {

@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strconv"
 
-	"tchaik.com/index/attr"
+	"github.com/amiforus/tchaik/index/attr"
 )
 
 // Tracker is an interface which defines the Tracks method which returns a list

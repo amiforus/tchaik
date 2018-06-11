@@ -13,8 +13,8 @@ import (
 
 	"github.com/dhowden/httpauth"
 
-	"tchaik.com/player"
-	"tchaik.com/store"
+	"github.com/amiforus/tchaik/player"
+	"github.com/amiforus/tchaik/store"
 )
 
 // traceFS is a type which implements http.FileSystem and is used at the top-level to
@@ -52,7 +52,7 @@ func rootHandler(w http.ResponseWriter, r *http.Request) {
 
 // NewHandler creates the root http.Handler.
 func NewHandler(l Library, m *Meta, mediaFileSystem, artworkFileSystem store.FileSystem) http.Handler {
-	var c httpauth.Checker = httpauth.None{}
+	var c httpauth.Checker = httpauth.Skip
 	if authUser != "" {
 		c = httpauth.Creds(map[string]string{
 			authUser: authPassword,

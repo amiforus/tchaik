@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"tchaik.com/index"
+	"github.com/amiforus/tchaik/index"
 )
 
 // Store is an interface which defines methods necessary for fetching/adding to play history for

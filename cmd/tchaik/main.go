@@ -25,13 +25,13 @@ import (
 	"net/http"
 	"os"
 
-	"tchaik.com/index"
-	"tchaik.com/index/attr"
+	"github.com/amiforus/tchaik/index"
+	"github.com/amiforus/tchaik/index/attr"
 
-	"tchaik.com/index/itl"
-	"tchaik.com/index/walk"
-	"tchaik.com/store"
-	"tchaik.com/store/cmdflag"
+	"github.com/amiforus/tchaik/index/itl"
+	"github.com/amiforus/tchaik/index/walk"
+	"github.com/amiforus/tchaik/store"
+	"github.com/amiforus/tchaik/store/cmdflag"
 )
 
 var debug bool

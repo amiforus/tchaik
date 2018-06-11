@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"tchaik.com/index"
+	"github.com/amiforus/tchaik/index"
 )
 
 // Value is a type which represents a rating value.

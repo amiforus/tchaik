@@ -18,8 +18,8 @@ import (
 	"os"
 	"strings"
 
-	"tchaik.com/index"
-	"tchaik.com/index/itl"
+	"github.com/amiforus/tchaik/index"
+	"github.com/amiforus/tchaik/index/itl"
 )
 
 var itlXML, tchLib string

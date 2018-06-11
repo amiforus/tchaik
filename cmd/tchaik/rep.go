@@ -7,8 +7,8 @@ package main
 import (
 	"encoding/json"
 
-	"tchaik.com/index"
-	"tchaik.com/index/attr"
+	"github.com/amiforus/tchaik/index"
+	"github.com/amiforus/tchaik/index/attr"
 )
 
 // Group is a wrapper type for an index.Group which implements MarshalJSON

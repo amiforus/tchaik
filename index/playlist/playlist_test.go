@@ -7,7 +7,7 @@ package playlist
 import (
 	"testing"
 
-	"tchaik.com/index"
+	"github.com/amiforus/tchaik/index"
 )
 
 func TestPlaylistAdd(t *testing.T) {
